@@ -1,6 +1,6 @@
 # poldecomp
 
-poldecomp is a perpetually incomplete, general purpose library for common post-processing task involving scattering power decompostion modelling in the domain polarimetric SAR (PolSAR) remote sensing. Currently, 12 different methods of PolSAR decomposition have been implemeted including some of the most recent and advanced model-based decompositions (6-Component Scattering Power Decompositions, 7-Component Scattering Power Decompositions).
+poldecomp is a perpetually incomplete, general purpose library for common post-processing task involving scattering power decompostion modelling in the domain polarimetric synthetic aperture radar (PolSAR) remote sensing. Currently, 12 different methods of PolSAR decomposition have been implemeted including some of the most recent and advanced model-based decompositions (6-Component Scattering Power Decompositions, 7-Component Scattering Power Decompositions).
 
 "*** Programmer - Raktim Ghosh (MSc, University of Twente)  Date Written - May, 2020 ***"
 
