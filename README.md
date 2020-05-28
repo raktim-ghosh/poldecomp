@@ -49,3 +49,28 @@ opencv
 gdal
 
 # How To Use
+
+step1: create an object by importing gdal for your tiff file - 
+
+example:
+band = gdal.Open("Path/example.tif")
+
+step2: create an object by specifying the class name from the above list for the decomposition, and inputting
+
+the object defined in step1 (in this case, it is band), and window size 
+
+for the ensemble averaging of the covariance or coherency matrix
+
+example:
+if you want to perform General4SD with window size 5 * 5, 
+
+then,
+
+decomposition = General4SD(band, 5)
+
+step3: Finally, for getting the decomposition result, 
+
+example:
+decomposition.get_result()
+
+And it will perform decomposition :)
