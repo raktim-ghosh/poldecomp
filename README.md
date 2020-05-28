@@ -8,7 +8,7 @@
 "*** Programmer - Raktim Ghosh (MSc, University of Twente)  Date Written - May, 2020***"
 
 
-""" List of scattering power decompositions implemented """
+""" List of scattering power decompositions model """
 
 """========================================================================"""
 
@@ -39,3 +39,5 @@
 "Seven Component Decomposition (Singh)          Class Name (General7SD)      *** Extension of 6SD"
 
 """========================================================================"""
+
+# How To Use
