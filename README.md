@@ -39,9 +39,13 @@ Model-based 6-Component Decomposition (Singh)                            Class N
 # Required packages 
 
 python 3.6 or greater
+
 numpy 1.16 or greater
+
 scipy 
+
 opencv
+
 gdal
 
 # How To Use
