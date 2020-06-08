@@ -78,3 +78,20 @@ example:
 decomposition.get_result()
 
 And it will perform decomposition :)
+
+# Installation and Usage
+pip install poldecomp
+
+link: https://pypi.org/project/poldecomp/
+
+import poldecomp as pd
+
+Note**: it would throw an error if you don't have the required packages mentioned above
+
+band = gdal.Open("Path/example.tif")
+
+classess availabe - ["ModTouzi", "Touzi", "HAAlpha", "Sinclair", "Cloude", "Pauli", "Vanzyl", "FreeMan", "Yamaguchi2005", "Yamaguchi2011", "General4SD", "General6SD", "General7SD"]
+
+decomposition = pd.General4SD(band, 5)
+
+decomposition.get_result()
